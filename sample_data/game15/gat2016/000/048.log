@@ -1,0 +1,2422 @@
+0,status,1,VILLAGER,ALIVE,cash
+0,status,2,VILLAGER,ALIVE,kSugar
+0,status,3,POSSESSED,ALIVE,haretaro
+0,status,4,BODYGUARD,ALIVE,Kanolab
+0,status,5,VILLAGER,ALIVE,wasabi
+0,status,6,VILLAGER,ALIVE,TOT
+0,status,7,VILLAGER,ALIVE,nakamura
+0,status,8,VILLAGER,ALIVE,iace10442
+0,status,9,MEDIUM,ALIVE,tkAI
+0,status,10,WEREWOLF,ALIVE,NLwolf
+0,status,11,VILLAGER,ALIVE,carlo
+0,status,12,WEREWOLF,ALIVE,twn480
+0,status,13,WEREWOLF,ALIVE,KajiGod
+0,status,14,SEER,ALIVE,howls
+0,status,15,VILLAGER,ALIVE,Udon
+0,talk,0,9,VOTE Agent[04]
+0,talk,1,5,ESTIMATE Agent[14] WEREWOLF
+0,talk,2,1,VOTE Agent[02]
+0,talk,3,7,ESTIMATE Agent[13] WEREWOLF
+0,talk,4,3,Over
+0,talk,5,10,Skip
+0,talk,6,2,COMINGOUT Agent[02] VILLAGER
+0,talk,7,6,Over
+0,talk,8,8,Skip
+0,talk,9,15,VOTE Agent[02]
+0,talk,10,4,VOTE Agent[06]
+0,talk,11,12,Over
+0,talk,12,14,DIVINED Agent[11] WEREWOLF
+0,talk,13,13,VOTE Agent[01]
+0,talk,14,11,VOTE Agent[14]
+0,whisper,0,12,COMINGOUT Agent[12] WEREWOLF
+0,whisper,1,10,Skip
+0,whisper,2,13,COMINGOUT Agent[13] VILLAGER
+0,whisper,3,13,Over
+0,whisper,4,10,Skip
+0,whisper,5,12,Over
+0,whisper,6,13,Over
+0,whisper,7,10,Skip
+0,whisper,8,12,Over
+0,whisper,9,10,Skip
+0,whisper,10,13,Over
+0,whisper,11,12,Over
+0,whisper,12,10,Skip
+0,whisper,13,12,Over
+0,whisper,14,13,Over
+0,whisper,15,10,Skip
+0,whisper,16,12,Over
+0,whisper,17,13,Over
+0,whisper,18,10,Skip
+0,whisper,19,12,Over
+0,whisper,20,13,Over
+0,whisper,21,10,Skip
+0,whisper,22,12,Over
+0,whisper,23,13,Over
+0,whisper,24,10,Skip
+0,whisper,25,12,Over
+0,whisper,26,13,Over
+0,whisper,27,10,Skip
+0,whisper,28,12,Over
+0,whisper,29,13,Over
+0,talk,15,1,Skip
+0,talk,16,12,Over
+0,talk,17,14,Over
+0,talk,18,4,ESTIMATE Agent[01] VILLAGER
+0,talk,19,7,VOTE Agent[13]
+0,talk,20,15,ESTIMATE Agent[02] WEREWOLF
+0,talk,21,9,VOTE Agent[04]
+0,talk,22,11,Over
+0,talk,23,13,VOTE Agent[12]
+0,talk,24,5,ESTIMATE Agent[01] WEREWOLF
+0,talk,25,10,Skip
+0,talk,26,2,Skip
+0,talk,27,8,ESTIMATE Agent[01] VILLAGER
+0,talk,28,6,Over
+0,talk,29,3,Over
+0,whisper,30,10,Skip
+0,whisper,31,13,Over
+0,whisper,32,12,Over
+0,whisper,33,10,Skip
+0,whisper,34,12,Over
+0,whisper,35,13,Over
+0,whisper,36,10,Skip
+0,whisper,37,12,Over
+0,whisper,38,13,Over
+0,whisper,39,10,Skip
+0,whisper,40,12,Over
+0,whisper,41,13,Over
+0,whisper,42,10,Skip
+0,whisper,43,12,Over
+0,whisper,44,13,Over
+0,whisper,45,10,Skip
+0,whisper,46,12,Over
+0,whisper,47,13,Over
+0,whisper,48,10,Skip
+0,whisper,49,12,Over
+0,whisper,50,13,Over
+0,whisper,51,10,Skip
+0,whisper,52,12,Over
+0,whisper,53,13,Over
+0,whisper,54,10,Skip
+0,whisper,55,12,Over
+0,whisper,56,13,Over
+0,whisper,57,10,Skip
+0,whisper,58,12,Over
+0,whisper,59,13,Over
+0,talk,30,4,Over
+0,talk,31,5,ESTIMATE Agent[12] VILLAGER
+0,talk,32,9,VOTE Agent[04]
+0,talk,33,8,Skip
+0,talk,34,2,ESTIMATE Agent[01] VILLAGER
+0,talk,35,7,Over
+0,talk,36,11,Over
+0,talk,37,15,ESTIMATE Agent[08] WEREWOLF
+0,talk,38,12,Over
+0,talk,39,1,VOTE Agent[11]
+0,talk,40,10,Skip
+0,talk,41,14,Over
+0,talk,42,13,Over
+0,talk,43,3,Over
+0,talk,44,6,Over
+0,whisper,60,12,Over
+0,whisper,61,13,Over
+0,whisper,62,10,Skip
+0,whisper,63,12,Over
+0,whisper,64,10,Skip
+0,whisper,65,13,Over
+0,whisper,66,10,Skip
+0,whisper,67,12,Over
+0,whisper,68,13,Over
+0,whisper,69,10,Skip
+0,whisper,70,12,Over
+0,whisper,71,13,Over
+0,whisper,72,10,Skip
+0,whisper,73,12,Over
+0,whisper,74,13,Over
+0,whisper,75,10,Skip
+0,whisper,76,12,Over
+0,whisper,77,13,Over
+0,whisper,78,10,Skip
+0,whisper,79,12,Over
+0,whisper,80,13,Over
+0,whisper,81,10,Skip
+0,whisper,82,12,Over
+0,whisper,83,13,Over
+0,whisper,84,10,Skip
+0,whisper,85,12,Over
+0,whisper,86,13,Over
+0,whisper,87,10,Skip
+0,whisper,88,12,Over
+0,whisper,89,13,Over
+0,talk,45,4,Over
+0,talk,46,12,Over
+0,talk,47,15,ESTIMATE Agent[11] WEREWOLF
+0,talk,48,9,VOTE Agent[04]
+0,talk,49,7,Over
+0,talk,50,8,VOTE Agent[11]
+0,talk,51,10,VOTE Agent[05]
+0,talk,52,1,Over
+0,talk,53,5,ESTIMATE Agent[07] WEREWOLF
+0,talk,54,11,Over
+0,talk,55,2,Skip
+0,talk,56,3,Over
+0,talk,57,6,Over
+0,talk,58,13,Over
+0,talk,59,14,Over
+0,whisper,90,10,Skip
+0,whisper,91,13,Over
+0,whisper,92,12,Over
+0,whisper,93,10,Skip
+0,whisper,94,12,Over
+0,whisper,95,13,Over
+0,whisper,96,10,Skip
+0,whisper,97,12,Over
+0,whisper,98,13,Over
+0,whisper,99,10,Skip
+0,whisper,100,12,Over
+0,whisper,101,13,Over
+0,whisper,102,10,Skip
+0,whisper,103,12,Over
+0,whisper,104,13,Over
+0,whisper,105,10,Skip
+0,whisper,106,12,Over
+0,whisper,107,13,Over
+0,whisper,108,10,Skip
+0,whisper,109,12,Over
+0,whisper,110,13,Over
+0,whisper,111,10,Skip
+0,whisper,112,12,Over
+0,whisper,113,13,Over
+0,whisper,114,10,Skip
+0,whisper,115,12,Over
+0,whisper,116,13,Over
+0,whisper,117,10,Skip
+0,whisper,118,12,Over
+0,whisper,119,13,Over
+0,talk,60,2,ESTIMATE Agent[03] VILLAGER
+0,talk,61,12,Over
+0,talk,62,10,Over
+0,talk,63,11,Over
+0,talk,64,1,Over
+0,talk,65,4,Over
+0,talk,66,8,Over
+0,talk,67,5,Skip
+0,talk,68,7,Over
+0,talk,69,15,VOTE Agent[11]
+0,talk,70,9,VOTE Agent[04]
+0,talk,71,3,Over
+0,talk,72,6,Over
+0,talk,73,13,Over
+0,talk,74,14,Over
+0,whisper,120,12,Over
+0,whisper,121,13,Over
+0,whisper,122,10,Skip
+0,whisper,123,13,Over
+0,whisper,124,12,Over
+0,whisper,125,10,Skip
+0,whisper,126,13,Over
+0,whisper,127,12,Over
+0,whisper,128,10,Skip
+0,whisper,129,10,Skip
+0,whisper,130,12,Over
+0,whisper,131,13,Over
+0,whisper,132,10,Skip
+0,whisper,133,12,Over
+0,whisper,134,13,Over
+0,whisper,135,10,Skip
+0,whisper,136,12,Over
+0,whisper,137,13,Over
+0,whisper,138,10,Skip
+0,whisper,139,12,Over
+0,whisper,140,13,Over
+0,whisper,141,10,Skip
+0,whisper,142,12,Over
+0,whisper,143,13,Over
+0,whisper,144,10,Skip
+0,whisper,145,12,Over
+0,whisper,146,13,Over
+0,whisper,147,10,Skip
+0,whisper,148,12,Over
+0,whisper,149,13,Over
+0,talk,75,2,Skip
+0,talk,76,9,VOTE Agent[04]
+0,talk,77,11,Over
+0,talk,78,12,Over
+0,talk,79,8,VOTE Agent[09]
+0,talk,80,10,Over
+0,talk,81,5,Skip
+0,talk,82,4,Over
+0,talk,83,7,Over
+0,talk,84,15,ESTIMATE Agent[14] SEER
+0,talk,85,1,Over
+0,talk,86,3,Over
+0,talk,87,6,Over
+0,talk,88,13,Over
+0,talk,89,14,Over
+0,whisper,150,10,Skip
+0,whisper,151,13,Over
+0,whisper,152,12,Over
+0,whisper,153,10,Skip
+0,whisper,154,12,Over
+0,whisper,155,13,Over
+0,whisper,156,10,Skip
+0,whisper,157,12,Over
+0,whisper,158,13,Over
+0,whisper,159,10,Skip
+0,whisper,160,12,Over
+0,whisper,161,13,Over
+0,whisper,162,10,Skip
+0,whisper,163,12,Over
+0,whisper,164,13,Over
+0,whisper,165,10,Skip
+0,whisper,166,12,Over
+0,whisper,167,13,Over
+0,whisper,168,10,Skip
+0,whisper,169,12,Over
+0,whisper,170,13,Over
+0,whisper,171,10,Skip
+0,whisper,172,12,Over
+0,whisper,173,13,Over
+0,whisper,174,10,Skip
+0,whisper,175,12,Over
+0,whisper,176,13,Over
+0,whisper,177,10,Skip
+0,whisper,178,12,Over
+0,whisper,179,13,Over
+0,talk,90,8,VOTE Agent[01]
+0,talk,91,7,Over
+0,talk,92,11,Over
+0,talk,93,9,VOTE Agent[04]
+0,talk,94,4,Over
+0,talk,95,15,Over
+0,talk,96,2,ESTIMATE Agent[04] VILLAGER
+0,talk,97,10,Over
+0,talk,98,5,ESTIMATE Agent[07] WEREWOLF
+0,talk,99,12,Over
+0,talk,100,1,Over
+0,talk,101,3,Over
+0,talk,102,6,Over
+0,talk,103,13,Over
+0,talk,104,14,Over
+0,whisper,180,10,Skip
+0,whisper,181,12,Over
+0,whisper,182,13,Over
+0,whisper,183,10,Skip
+0,whisper,184,12,Over
+0,whisper,185,13,Over
+0,whisper,186,10,Skip
+0,whisper,187,12,Over
+0,whisper,188,13,Over
+0,whisper,189,10,Skip
+0,whisper,190,12,Over
+0,whisper,191,13,Over
+0,whisper,192,10,Skip
+0,whisper,193,12,Over
+0,whisper,194,13,Over
+0,whisper,195,10,Skip
+0,whisper,196,12,Over
+0,whisper,197,13,Over
+0,whisper,198,10,Skip
+0,whisper,199,12,Over
+0,whisper,200,13,Over
+0,whisper,201,10,Skip
+0,whisper,202,12,Over
+0,whisper,203,13,Over
+0,whisper,204,10,Skip
+0,whisper,205,12,Over
+0,whisper,206,13,Over
+0,whisper,207,10,Skip
+0,whisper,208,12,Over
+0,whisper,209,13,Over
+0,talk,105,2,Skip
+0,talk,106,8,VOTE Agent[10]
+0,talk,107,11,Over
+0,talk,108,7,Over
+0,talk,109,9,VOTE Agent[04]
+0,talk,110,15,Over
+0,talk,111,5,ESTIMATE Agent[12] WEREWOLF
+0,talk,112,10,Over
+0,talk,113,4,Over
+0,talk,114,1,Over
+0,talk,115,3,Over
+0,talk,116,6,Over
+0,talk,117,12,Over
+0,talk,118,13,Over
+0,talk,119,14,Over
+0,whisper,210,10,Skip
+0,whisper,211,13,Over
+0,whisper,212,12,Over
+0,whisper,213,10,Skip
+0,whisper,214,12,Over
+0,whisper,215,13,Over
+0,whisper,216,10,Skip
+0,whisper,217,12,Over
+0,whisper,218,13,Over
+0,whisper,219,10,Skip
+0,whisper,220,12,Over
+0,whisper,221,13,Over
+0,whisper,222,10,Skip
+0,whisper,223,12,Over
+0,whisper,224,13,Over
+0,whisper,225,10,Skip
+0,whisper,226,12,Over
+0,whisper,227,13,Over
+0,whisper,228,10,Skip
+0,whisper,229,12,Over
+0,whisper,230,13,Over
+0,whisper,231,10,Skip
+0,whisper,232,12,Over
+0,whisper,233,13,Over
+0,whisper,234,10,Skip
+0,whisper,235,12,Over
+0,whisper,236,13,Over
+0,whisper,237,10,Skip
+0,whisper,238,12,Over
+0,whisper,239,13,Over
+0,talk,120,9,VOTE Agent[04]
+0,talk,121,2,ESTIMATE Agent[05] VILLAGER
+0,talk,122,7,Over
+0,talk,123,8,VOTE Agent[05]
+0,talk,124,15,Over
+0,talk,125,11,Over
+0,talk,126,5,ESTIMATE Agent[04] VILLAGER
+0,talk,127,1,Over
+0,talk,128,3,Over
+0,talk,129,4,Over
+0,talk,130,6,Over
+0,talk,131,10,Over
+0,talk,132,12,Over
+0,talk,133,13,Over
+0,talk,134,14,Over
+0,whisper,240,10,Skip
+0,whisper,241,12,Over
+0,whisper,242,13,Over
+0,whisper,243,10,Skip
+0,whisper,244,12,Over
+0,whisper,245,13,Over
+0,whisper,246,10,Skip
+0,whisper,247,12,Over
+0,whisper,248,13,Over
+0,whisper,249,10,Skip
+0,whisper,250,12,Over
+0,whisper,251,13,Over
+0,whisper,252,10,Skip
+0,whisper,253,12,Over
+0,whisper,254,13,Over
+0,whisper,255,10,Skip
+0,whisper,256,12,Over
+0,whisper,257,13,Over
+0,whisper,258,10,Skip
+0,whisper,259,12,Over
+0,whisper,260,13,Over
+0,whisper,261,10,Skip
+0,whisper,262,12,Over
+0,whisper,263,13,Over
+0,whisper,264,10,Skip
+0,whisper,265,12,Over
+0,whisper,266,13,Over
+0,whisper,267,10,Skip
+0,whisper,268,12,Over
+0,whisper,269,13,Over
+0,talk,135,2,Skip
+0,talk,136,9,VOTE Agent[04]
+0,talk,137,15,Over
+0,talk,138,7,Over
+0,talk,139,11,Over
+0,talk,140,8,VOTE Agent[06]
+0,talk,141,5,ESTIMATE Agent[08] VILLAGER
+0,talk,142,1,Over
+0,talk,143,3,Over
+0,talk,144,4,Over
+0,talk,145,6,Over
+0,talk,146,10,Over
+0,talk,147,12,Over
+0,talk,148,13,Over
+0,talk,149,14,Over
+0,whisper,270,10,Skip
+0,whisper,271,12,Over
+0,whisper,272,13,Over
+0,whisper,273,10,Skip
+0,whisper,274,12,Over
+0,whisper,275,13,Over
+0,whisper,276,10,Skip
+0,whisper,277,12,Over
+0,whisper,278,13,Over
+0,whisper,279,10,Skip
+0,whisper,280,12,Over
+0,whisper,281,13,Over
+0,whisper,282,10,Skip
+0,whisper,283,12,Over
+0,whisper,284,13,Over
+0,whisper,285,10,Skip
+0,whisper,286,12,Over
+0,whisper,287,13,Over
+0,whisper,288,10,Skip
+0,whisper,289,12,Over
+0,whisper,290,13,Over
+0,whisper,291,10,Skip
+0,whisper,292,12,Over
+0,whisper,293,13,Over
+0,whisper,294,10,Skip
+0,whisper,295,12,Over
+0,whisper,296,13,Over
+0,whisper,297,10,Skip
+0,whisper,298,12,Over
+0,whisper,299,13,Over
+0,divine,14,14,HUMAN
+1,status,1,VILLAGER,ALIVE,cash
+1,status,2,VILLAGER,ALIVE,kSugar
+1,status,3,POSSESSED,ALIVE,haretaro
+1,status,4,BODYGUARD,ALIVE,Kanolab
+1,status,5,VILLAGER,ALIVE,wasabi
+1,status,6,VILLAGER,ALIVE,TOT
+1,status,7,VILLAGER,ALIVE,nakamura
+1,status,8,VILLAGER,ALIVE,iace10442
+1,status,9,MEDIUM,ALIVE,tkAI
+1,status,10,WEREWOLF,ALIVE,NLwolf
+1,status,11,VILLAGER,ALIVE,carlo
+1,status,12,WEREWOLF,ALIVE,twn480
+1,status,13,WEREWOLF,ALIVE,KajiGod
+1,status,14,SEER,ALIVE,howls
+1,status,15,VILLAGER,ALIVE,Udon
+1,talk,0,11,VOTE Agent[14]
+1,talk,1,3,Over
+1,talk,2,1,VOTE Agent[11]
+1,talk,3,2,VOTE Agent[11]
+1,talk,4,7,ESTIMATE Agent[13] WEREWOLF
+1,talk,5,6,VOTE Agent[12]
+1,talk,6,9,VOTE Agent[04]
+1,talk,7,10,DIVINED Agent[05] HUMAN
+1,talk,8,4,VOTE Agent[11]
+1,talk,9,13,VOTE Agent[12]
+1,talk,10,12,Over
+1,talk,11,15,VOTE Agent[11]
+1,talk,12,8,Skip
+1,talk,13,14,DIVINED Agent[14] HUMAN
+1,talk,14,5,ESTIMATE Agent[03] WEREWOLF
+1,whisper,0,10,Skip
+1,whisper,1,12,Over
+1,whisper,2,13,Over
+1,whisper,3,10,Skip
+1,whisper,4,12,Over
+1,whisper,5,13,Over
+1,whisper,6,10,Skip
+1,whisper,7,12,Over
+1,whisper,8,13,Over
+1,whisper,9,10,Skip
+1,whisper,10,12,Over
+1,whisper,11,13,Over
+1,whisper,12,10,Skip
+1,whisper,13,12,Over
+1,whisper,14,13,Over
+1,whisper,15,10,Skip
+1,whisper,16,12,Over
+1,whisper,17,13,Over
+1,whisper,18,10,Skip
+1,whisper,19,12,Over
+1,whisper,20,13,Over
+1,whisper,21,10,Skip
+1,whisper,22,12,Over
+1,whisper,23,13,Over
+1,whisper,24,10,Skip
+1,whisper,25,12,Over
+1,whisper,26,13,Over
+1,whisper,27,10,Skip
+1,whisper,28,12,Over
+1,whisper,29,13,Over
+1,talk,15,9,VOTE Agent[04]
+1,talk,16,4,VOTE Agent[08]
+1,talk,17,1,Skip
+1,talk,18,14,Over
+1,talk,19,15,ESTIMATE Agent[02] WEREWOLF
+1,talk,20,8,ESTIMATE Agent[01] VILLAGER
+1,talk,21,11,Over
+1,talk,22,6,Over
+1,talk,23,7,VOTE Agent[13]
+1,talk,24,2,VOTE Agent[12]
+1,talk,25,3,Over
+1,talk,26,10,Skip
+1,talk,27,12,Over
+1,talk,28,5,ESTIMATE Agent[06] VILLAGER
+1,talk,29,13,Over
+1,whisper,30,12,Over
+1,whisper,31,10,Skip
+1,whisper,32,13,Over
+1,whisper,33,10,Skip
+1,whisper,34,12,Over
+1,whisper,35,13,Over
+1,whisper,36,10,Skip
+1,whisper,37,12,Over
+1,whisper,38,13,Over
+1,whisper,39,10,Skip
+1,whisper,40,12,Over
+1,whisper,41,13,Over
+1,whisper,42,10,Skip
+1,whisper,43,12,Over
+1,whisper,44,13,Over
+1,whisper,45,10,Skip
+1,whisper,46,12,Over
+1,whisper,47,13,Over
+1,whisper,48,10,Skip
+1,whisper,49,12,Over
+1,whisper,50,13,Over
+1,whisper,51,10,Skip
+1,whisper,52,12,Over
+1,whisper,53,13,Over
+1,whisper,54,10,Skip
+1,whisper,55,12,Over
+1,whisper,56,13,Over
+1,whisper,57,10,Skip
+1,whisper,58,12,Over
+1,whisper,59,13,Over
+1,talk,30,7,Over
+1,talk,31,2,ESTIMATE Agent[01] VILLAGER
+1,talk,32,12,Over
+1,talk,33,1,VOTE Agent[11]
+1,talk,34,5,ESTIMATE Agent[09] WEREWOLF
+1,talk,35,4,VOTE Agent[06]
+1,talk,36,8,Skip
+1,talk,37,10,Skip
+1,talk,38,3,Over
+1,talk,39,9,VOTE Agent[04]
+1,talk,40,14,Over
+1,talk,41,11,Over
+1,talk,42,6,Over
+1,talk,43,15,ESTIMATE Agent[13] WEREWOLF
+1,talk,44,13,Over
+1,whisper,60,10,Skip
+1,whisper,61,13,Over
+1,whisper,62,12,Over
+1,whisper,63,10,Skip
+1,whisper,64,12,Over
+1,whisper,65,13,Over
+1,whisper,66,10,Skip
+1,whisper,67,12,Over
+1,whisper,68,13,Over
+1,whisper,69,10,Skip
+1,whisper,70,12,Over
+1,whisper,71,13,Over
+1,whisper,72,10,Skip
+1,whisper,73,12,Over
+1,whisper,74,13,Over
+1,whisper,75,10,Skip
+1,whisper,76,12,Over
+1,whisper,77,13,Over
+1,whisper,78,10,Skip
+1,whisper,79,12,Over
+1,whisper,80,13,Over
+1,whisper,81,10,Skip
+1,whisper,82,12,Over
+1,whisper,83,13,Over
+1,whisper,84,10,Skip
+1,whisper,85,12,Over
+1,whisper,86,13,Over
+1,whisper,87,10,Skip
+1,whisper,88,12,Over
+1,whisper,89,13,Over
+1,talk,45,4,VOTE Agent[14]
+1,talk,46,8,VOTE Agent[07]
+1,talk,47,3,Over
+1,talk,48,6,Over
+1,talk,49,10,Skip
+1,talk,50,7,Over
+1,talk,51,2,ESTIMATE Agent[03] VILLAGER
+1,talk,52,9,VOTE Agent[04]
+1,talk,53,14,Over
+1,talk,54,12,Over
+1,talk,55,1,Over
+1,talk,56,5,ESTIMATE Agent[12] WEREWOLF
+1,talk,57,15,ESTIMATE Agent[14] WEREWOLF
+1,talk,58,11,Over
+1,talk,59,13,Over
+1,whisper,90,10,Skip
+1,whisper,91,12,Over
+1,whisper,92,13,Over
+1,whisper,93,10,Skip
+1,whisper,94,12,Over
+1,whisper,95,13,Over
+1,whisper,96,10,Skip
+1,whisper,97,12,Over
+1,whisper,98,13,Over
+1,whisper,99,10,Skip
+1,whisper,100,12,Over
+1,whisper,101,13,Over
+1,whisper,102,10,Skip
+1,whisper,103,12,Over
+1,whisper,104,13,Over
+1,whisper,105,10,Skip
+1,whisper,106,12,Over
+1,whisper,107,13,Over
+1,whisper,108,10,Skip
+1,whisper,109,12,Over
+1,whisper,110,13,Over
+1,whisper,111,10,Skip
+1,whisper,112,12,Over
+1,whisper,113,13,Over
+1,whisper,114,10,Skip
+1,whisper,115,12,Over
+1,whisper,116,13,Over
+1,whisper,117,10,Skip
+1,whisper,118,12,Over
+1,whisper,119,13,Over
+1,talk,60,4,VOTE Agent[10]
+1,talk,61,3,Over
+1,talk,62,2,ESTIMATE Agent[04] VILLAGER
+1,talk,63,15,Over
+1,talk,64,9,VOTE Agent[04]
+1,talk,65,7,Over
+1,talk,66,5,ESTIMATE Agent[10] WEREWOLF
+1,talk,67,6,Over
+1,talk,68,1,Over
+1,talk,69,14,Over
+1,talk,70,8,Over
+1,talk,71,12,Over
+1,talk,72,10,VOTE Agent[03]
+1,talk,73,11,Over
+1,talk,74,13,Over
+1,whisper,120,13,Over
+1,whisper,121,10,Skip
+1,whisper,122,12,Over
+1,whisper,123,13,Over
+1,whisper,124,10,Skip
+1,whisper,125,12,Over
+1,whisper,126,10,Skip
+1,whisper,127,13,Over
+1,whisper,128,12,Over
+1,whisper,129,10,Skip
+1,whisper,130,12,Over
+1,whisper,131,13,Over
+1,whisper,132,10,Skip
+1,whisper,133,12,Over
+1,whisper,134,13,Over
+1,whisper,135,10,Skip
+1,whisper,136,12,Over
+1,whisper,137,13,Over
+1,whisper,138,10,Skip
+1,whisper,139,12,Over
+1,whisper,140,13,Over
+1,whisper,141,10,Skip
+1,whisper,142,12,Over
+1,whisper,143,13,Over
+1,whisper,144,10,Skip
+1,whisper,145,12,Over
+1,whisper,146,13,Over
+1,whisper,147,10,Skip
+1,whisper,148,12,Over
+1,whisper,149,13,Over
+1,talk,75,12,Over
+1,talk,76,8,VOTE Agent[05]
+1,talk,77,9,VOTE Agent[04]
+1,talk,78,3,Over
+1,talk,79,5,ESTIMATE Agent[11] VILLAGER
+1,talk,80,2,ESTIMATE Agent[06] VILLAGER
+1,talk,81,15,Over
+1,talk,82,6,Over
+1,talk,83,7,Over
+1,talk,84,1,Over
+1,talk,85,4,VOTE Agent[07]
+1,talk,86,14,Over
+1,talk,87,10,Over
+1,talk,88,11,Over
+1,talk,89,13,Over
+1,whisper,150,13,Over
+1,whisper,151,12,Over
+1,whisper,152,10,Skip
+1,whisper,153,13,Over
+1,whisper,154,12,Over
+1,whisper,155,10,Skip
+1,whisper,156,10,Skip
+1,whisper,157,13,Over
+1,whisper,158,12,Over
+1,whisper,159,10,Skip
+1,whisper,160,12,Over
+1,whisper,161,13,Over
+1,whisper,162,10,Skip
+1,whisper,163,12,Over
+1,whisper,164,13,Over
+1,whisper,165,10,Skip
+1,whisper,166,12,Over
+1,whisper,167,13,Over
+1,whisper,168,10,Skip
+1,whisper,169,12,Over
+1,whisper,170,13,Over
+1,whisper,171,10,Skip
+1,whisper,172,12,Over
+1,whisper,173,13,Over
+1,whisper,174,10,Skip
+1,whisper,175,12,Over
+1,whisper,176,13,Over
+1,whisper,177,10,Skip
+1,whisper,178,12,Over
+1,whisper,179,13,Over
+1,talk,90,12,Over
+1,talk,91,5,ESTIMATE Agent[10] WEREWOLF
+1,talk,92,8,VOTE Agent[02]
+1,talk,93,7,Over
+1,talk,94,6,Over
+1,talk,95,2,Skip
+1,talk,96,4,ESTIMATE Agent[01] VILLAGER
+1,talk,97,15,Over
+1,talk,98,9,VOTE Agent[04]
+1,talk,99,3,Over
+1,talk,100,1,Over
+1,talk,101,10,Over
+1,talk,102,11,Over
+1,talk,103,13,Over
+1,talk,104,14,Over
+1,whisper,180,12,Over
+1,whisper,181,10,Skip
+1,whisper,182,13,Over
+1,whisper,183,12,Over
+1,whisper,184,10,Skip
+1,whisper,185,13,Over
+1,whisper,186,10,Skip
+1,whisper,187,12,Over
+1,whisper,188,13,Over
+1,whisper,189,10,Skip
+1,whisper,190,12,Over
+1,whisper,191,13,Over
+1,whisper,192,10,Skip
+1,whisper,193,12,Over
+1,whisper,194,13,Over
+1,whisper,195,10,Skip
+1,whisper,196,12,Over
+1,whisper,197,13,Over
+1,whisper,198,10,Skip
+1,whisper,199,12,Over
+1,whisper,200,13,Over
+1,whisper,201,10,Skip
+1,whisper,202,12,Over
+1,whisper,203,13,Over
+1,whisper,204,10,Skip
+1,whisper,205,12,Over
+1,whisper,206,13,Over
+1,whisper,207,10,Skip
+1,whisper,208,12,Over
+1,whisper,209,13,Over
+1,talk,105,6,Over
+1,talk,106,4,Over
+1,talk,107,5,ESTIMATE Agent[10] WEREWOLF
+1,talk,108,7,Over
+1,talk,109,8,VOTE Agent[07]
+1,talk,110,9,VOTE Agent[04]
+1,talk,111,2,Skip
+1,talk,112,12,Over
+1,talk,113,15,Over
+1,talk,114,1,Over
+1,talk,115,3,Over
+1,talk,116,10,Over
+1,talk,117,11,Over
+1,talk,118,13,Over
+1,talk,119,14,Over
+1,whisper,210,10,Skip
+1,whisper,211,13,Over
+1,whisper,212,12,Over
+1,whisper,213,10,Skip
+1,whisper,214,12,Over
+1,whisper,215,13,Over
+1,whisper,216,10,Skip
+1,whisper,217,12,Over
+1,whisper,218,13,Over
+1,whisper,219,10,Skip
+1,whisper,220,12,Over
+1,whisper,221,13,Over
+1,whisper,222,10,Skip
+1,whisper,223,12,Over
+1,whisper,224,13,Over
+1,whisper,225,10,Skip
+1,whisper,226,12,Over
+1,whisper,227,13,Over
+1,whisper,228,10,Skip
+1,whisper,229,12,Over
+1,whisper,230,13,Over
+1,whisper,231,10,Skip
+1,whisper,232,12,Over
+1,whisper,233,13,Over
+1,whisper,234,10,Skip
+1,whisper,235,12,Over
+1,whisper,236,13,Over
+1,whisper,237,10,Skip
+1,whisper,238,12,Over
+1,whisper,239,13,Over
+1,talk,120,7,Over
+1,talk,121,5,ESTIMATE Agent[06] WEREWOLF
+1,talk,122,8,VOTE Agent[05]
+1,talk,123,2,Skip
+1,talk,124,9,VOTE Agent[04]
+1,talk,125,6,Over
+1,talk,126,4,Over
+1,talk,127,1,Over
+1,talk,128,3,Over
+1,talk,129,10,Over
+1,talk,130,11,Over
+1,talk,131,12,Over
+1,talk,132,13,Over
+1,talk,133,14,Over
+1,talk,134,15,Over
+1,whisper,240,10,Skip
+1,whisper,241,13,Over
+1,whisper,242,12,Over
+1,whisper,243,10,Skip
+1,whisper,244,12,Over
+1,whisper,245,13,Over
+1,whisper,246,10,Skip
+1,whisper,247,12,Over
+1,whisper,248,13,Over
+1,whisper,249,10,Skip
+1,whisper,250,12,Over
+1,whisper,251,13,Over
+1,whisper,252,10,Skip
+1,whisper,253,12,Over
+1,whisper,254,13,Over
+1,whisper,255,10,Skip
+1,whisper,256,12,Over
+1,whisper,257,13,Over
+1,whisper,258,10,Skip
+1,whisper,259,12,Over
+1,whisper,260,13,Over
+1,whisper,261,10,Skip
+1,whisper,262,12,Over
+1,whisper,263,13,Over
+1,whisper,264,10,Skip
+1,whisper,265,12,Over
+1,whisper,266,13,Over
+1,whisper,267,10,Skip
+1,whisper,268,12,Over
+1,whisper,269,13,Over
+1,talk,135,5,ESTIMATE Agent[01] WEREWOLF
+1,talk,136,9,VOTE Agent[04]
+1,talk,137,7,Over
+1,talk,138,2,Skip
+1,talk,139,8,VOTE Agent[11]
+1,talk,140,1,Over
+1,talk,141,3,Over
+1,talk,142,4,VOTE Agent[12]
+1,talk,143,6,Over
+1,talk,144,10,Over
+1,talk,145,11,Over
+1,talk,146,12,Over
+1,talk,147,13,Over
+1,talk,148,14,Over
+1,talk,149,15,Over
+1,whisper,270,13,Over
+1,whisper,271,10,Skip
+1,whisper,272,12,Over
+1,whisper,273,13,Over
+1,whisper,274,10,Skip
+1,whisper,275,12,Over
+1,whisper,276,13,Over
+1,whisper,277,10,Skip
+1,whisper,278,12,Over
+1,whisper,279,10,Skip
+1,whisper,280,13,Over
+1,whisper,281,12,Over
+1,whisper,282,10,Skip
+1,whisper,283,12,Over
+1,whisper,284,13,Over
+1,whisper,285,10,Skip
+1,whisper,286,12,Over
+1,whisper,287,13,Over
+1,whisper,288,10,Skip
+1,whisper,289,12,Over
+1,whisper,290,13,Over
+1,whisper,291,10,Skip
+1,whisper,292,12,Over
+1,whisper,293,13,Over
+1,whisper,294,10,Skip
+1,whisper,295,12,Over
+1,whisper,296,13,Over
+1,whisper,297,10,Skip
+1,whisper,298,12,Over
+1,whisper,299,13,Over
+1,vote,1,11
+1,vote,2,12
+1,vote,3,8
+1,vote,4,2
+1,vote,5,6
+1,vote,6,12
+1,vote,7,13
+1,vote,8,11
+1,vote,9,4
+1,vote,10,3
+1,vote,11,14
+1,vote,12,14
+1,vote,13,12
+1,vote,14,11
+1,vote,15,11
+1,divine,14,14,HUMAN
+1,guard,4,1,VILLAGER
+1,attackVote,10,9
+1,attackVote,12,1
+1,attackVote,13,3
+1,execute,11,VILLAGER
+1,attack,3,true
+2,status,1,VILLAGER,ALIVE,cash
+2,status,2,VILLAGER,ALIVE,kSugar
+2,status,3,POSSESSED,DEAD,haretaro
+2,status,4,BODYGUARD,ALIVE,Kanolab
+2,status,5,VILLAGER,ALIVE,wasabi
+2,status,6,VILLAGER,ALIVE,TOT
+2,status,7,VILLAGER,ALIVE,nakamura
+2,status,8,VILLAGER,ALIVE,iace10442
+2,status,9,MEDIUM,ALIVE,tkAI
+2,status,10,WEREWOLF,ALIVE,NLwolf
+2,status,11,VILLAGER,DEAD,carlo
+2,status,12,WEREWOLF,ALIVE,twn480
+2,status,13,WEREWOLF,ALIVE,KajiGod
+2,status,14,SEER,ALIVE,howls
+2,status,15,VILLAGER,ALIVE,Udon
+2,talk,0,7,ESTIMATE Agent[13] WEREWOLF
+2,talk,1,8,ESTIMATE Agent[02] VILLAGER
+2,talk,2,9,VOTE Agent[04]
+2,talk,3,14,DIVINED Agent[14] HUMAN
+2,talk,4,1,VOTE Agent[09]
+2,talk,5,6,VOTE Agent[12]
+2,talk,6,13,VOTE Agent[12]
+2,talk,7,15,VOTE Agent[02]
+2,talk,8,2,VOTE Agent[12]
+2,talk,9,4,VOTE Agent[15]
+2,talk,10,12,Over
+2,talk,11,10,DIVINED Agent[07] HUMAN
+2,talk,12,5,ESTIMATE Agent[09] WEREWOLF
+2,whisper,0,13,Over
+2,whisper,1,10,Skip
+2,whisper,2,12,Over
+2,whisper,3,13,Over
+2,whisper,4,10,Skip
+2,whisper,5,12,Over
+2,whisper,6,13,Over
+2,whisper,7,10,Skip
+2,whisper,8,12,Over
+2,whisper,9,13,Over
+2,whisper,10,10,Skip
+2,whisper,11,12,Over
+2,whisper,12,13,Over
+2,whisper,13,10,Skip
+2,whisper,14,12,Over
+2,whisper,15,10,Skip
+2,whisper,16,13,Over
+2,whisper,17,12,Over
+2,whisper,18,10,Skip
+2,whisper,19,12,Over
+2,whisper,20,13,Over
+2,whisper,21,10,Skip
+2,whisper,22,12,Over
+2,whisper,23,13,Over
+2,whisper,24,10,Skip
+2,whisper,25,12,Over
+2,whisper,26,13,Over
+2,whisper,27,10,Skip
+2,whisper,28,12,Over
+2,whisper,29,13,Over
+2,talk,13,9,VOTE Agent[04]
+2,talk,14,1,VOTE Agent[09]
+2,talk,15,13,Over
+2,talk,16,2,VOTE Agent[06]
+2,talk,17,8,Skip
+2,talk,18,12,Over
+2,talk,19,10,Skip
+2,talk,20,14,Over
+2,talk,21,7,VOTE Agent[13]
+2,talk,22,15,ESTIMATE Agent[08] WEREWOLF
+2,talk,23,6,Over
+2,talk,24,5,ESTIMATE Agent[06] WEREWOLF
+2,talk,25,4,VOTE Agent[01]
+2,whisper,30,10,Skip
+2,whisper,31,12,Over
+2,whisper,32,13,Over
+2,whisper,33,10,Skip
+2,whisper,34,12,Over
+2,whisper,35,13,Over
+2,whisper,36,10,Skip
+2,whisper,37,12,Over
+2,whisper,38,13,Over
+2,whisper,39,10,Skip
+2,whisper,40,12,Over
+2,whisper,41,13,Over
+2,whisper,42,10,Skip
+2,whisper,43,12,Over
+2,whisper,44,13,Over
+2,whisper,45,10,Skip
+2,whisper,46,12,Over
+2,whisper,47,13,Over
+2,whisper,48,10,Skip
+2,whisper,49,12,Over
+2,whisper,50,13,Over
+2,whisper,51,10,Skip
+2,whisper,52,12,Over
+2,whisper,53,13,Over
+2,whisper,54,10,Skip
+2,whisper,55,12,Over
+2,whisper,56,13,Over
+2,whisper,57,10,Skip
+2,whisper,58,12,Over
+2,whisper,59,13,Over
+2,talk,26,15,ESTIMATE Agent[13] WEREWOLF
+2,talk,27,2,ESTIMATE Agent[01] VILLAGER
+2,talk,28,1,Over
+2,talk,29,5,ESTIMATE Agent[04] VILLAGER
+2,talk,30,8,ESTIMATE Agent[01] VILLAGER
+2,talk,31,13,Over
+2,talk,32,9,VOTE Agent[04]
+2,talk,33,4,VOTE Agent[09]
+2,talk,34,12,Over
+2,talk,35,6,Over
+2,talk,36,7,Over
+2,talk,37,10,Skip
+2,talk,38,14,Over
+2,whisper,60,10,Skip
+2,whisper,61,13,Over
+2,whisper,62,12,Over
+2,whisper,63,10,Skip
+2,whisper,64,12,Over
+2,whisper,65,13,Over
+2,whisper,66,10,Skip
+2,whisper,67,12,Over
+2,whisper,68,13,Over
+2,whisper,69,10,Skip
+2,whisper,70,12,Over
+2,whisper,71,13,Over
+2,whisper,72,10,Skip
+2,whisper,73,12,Over
+2,whisper,74,13,Over
+2,whisper,75,10,Skip
+2,whisper,76,12,Over
+2,whisper,77,13,Over
+2,whisper,78,10,Skip
+2,whisper,79,12,Over
+2,whisper,80,13,Over
+2,whisper,81,10,Skip
+2,whisper,82,12,Over
+2,whisper,83,13,Over
+2,whisper,84,10,Skip
+2,whisper,85,12,Over
+2,whisper,86,13,Over
+2,whisper,87,10,Skip
+2,whisper,88,12,Over
+2,whisper,89,13,Over
+2,talk,39,7,Over
+2,talk,40,13,Over
+2,talk,41,2,ESTIMATE Agent[01] VILLAGER
+2,talk,42,10,Skip
+2,talk,43,8,VOTE Agent[06]
+2,talk,44,1,Over
+2,talk,45,12,Over
+2,talk,46,4,VOTE Agent[14]
+2,talk,47,15,ESTIMATE Agent[14] WEREWOLF
+2,talk,48,5,ESTIMATE Agent[06] WEREWOLF
+2,talk,49,6,Over
+2,talk,50,9,VOTE Agent[04]
+2,talk,51,14,Over
+2,whisper,90,13,Over
+2,whisper,91,12,Over
+2,whisper,92,10,Skip
+2,whisper,93,10,Skip
+2,whisper,94,13,Over
+2,whisper,95,12,Over
+2,whisper,96,10,Skip
+2,whisper,97,12,Over
+2,whisper,98,13,Over
+2,whisper,99,10,Skip
+2,whisper,100,12,Over
+2,whisper,101,13,Over
+2,whisper,102,10,Skip
+2,whisper,103,12,Over
+2,whisper,104,13,Over
+2,whisper,105,10,Skip
+2,whisper,106,12,Over
+2,whisper,107,13,Over
+2,whisper,108,10,Skip
+2,whisper,109,12,Over
+2,whisper,110,13,Over
+2,whisper,111,10,Skip
+2,whisper,112,12,Over
+2,whisper,113,13,Over
+2,whisper,114,10,Skip
+2,whisper,115,12,Over
+2,whisper,116,13,Over
+2,whisper,117,10,Skip
+2,whisper,118,12,Over
+2,whisper,119,13,Over
+2,talk,52,2,ESTIMATE Agent[04] VILLAGER
+2,talk,53,12,Over
+2,talk,54,9,VOTE Agent[04]
+2,talk,55,10,VOTE Agent[08]
+2,talk,56,6,Over
+2,talk,57,4,VOTE Agent[05]
+2,talk,58,15,Over
+2,talk,59,13,Over
+2,talk,60,8,VOTE Agent[07]
+2,talk,61,1,Over
+2,talk,62,7,Over
+2,talk,63,5,ESTIMATE Agent[15] VILLAGER
+2,talk,64,14,Over
+2,whisper,120,12,Over
+2,whisper,121,13,Over
+2,whisper,122,10,Skip
+2,whisper,123,13,Over
+2,whisper,124,12,Over
+2,whisper,125,10,Skip
+2,whisper,126,13,Over
+2,whisper,127,12,Over
+2,whisper,128,10,Skip
+2,whisper,129,13,Over
+2,whisper,130,12,Over
+2,whisper,131,10,Skip
+2,whisper,132,10,Skip
+2,whisper,133,12,Over
+2,whisper,134,13,Over
+2,whisper,135,10,Skip
+2,whisper,136,12,Over
+2,whisper,137,13,Over
+2,whisper,138,10,Skip
+2,whisper,139,12,Over
+2,whisper,140,13,Over
+2,whisper,141,10,Skip
+2,whisper,142,12,Over
+2,whisper,143,13,Over
+2,whisper,144,10,Skip
+2,whisper,145,12,Over
+2,whisper,146,13,Over
+2,whisper,147,10,Skip
+2,whisper,148,12,Over
+2,whisper,149,13,Over
+2,talk,65,10,Over
+2,talk,66,4,VOTE Agent[08]
+2,talk,67,9,VOTE Agent[04]
+2,talk,68,8,Over
+2,talk,69,1,Over
+2,talk,70,6,Over
+2,talk,71,7,Over
+2,talk,72,15,Over
+2,talk,73,13,Over
+2,talk,74,12,Over
+2,talk,75,5,ESTIMATE Agent[12] WEREWOLF
+2,talk,76,2,ESTIMATE Agent[06] VILLAGER
+2,talk,77,14,Over
+2,whisper,150,10,Skip
+2,whisper,151,13,Over
+2,whisper,152,12,Over
+2,whisper,153,10,Skip
+2,whisper,154,12,Over
+2,whisper,155,13,Over
+2,whisper,156,10,Skip
+2,whisper,157,12,Over
+2,whisper,158,13,Over
+2,whisper,159,10,Skip
+2,whisper,160,12,Over
+2,whisper,161,13,Over
+2,whisper,162,10,Skip
+2,whisper,163,12,Over
+2,whisper,164,13,Over
+2,whisper,165,10,Skip
+2,whisper,166,12,Over
+2,whisper,167,13,Over
+2,whisper,168,10,Skip
+2,whisper,169,12,Over
+2,whisper,170,13,Over
+2,whisper,171,10,Skip
+2,whisper,172,12,Over
+2,whisper,173,13,Over
+2,whisper,174,10,Skip
+2,whisper,175,12,Over
+2,whisper,176,13,Over
+2,whisper,177,10,Skip
+2,whisper,178,12,Over
+2,whisper,179,13,Over
+2,talk,78,4,VOTE Agent[13]
+2,talk,79,12,Over
+2,talk,80,2,VOTE Agent[13]
+2,talk,81,7,Over
+2,talk,82,13,Over
+2,talk,83,9,VOTE Agent[04]
+2,talk,84,15,Over
+2,talk,85,5,ESTIMATE Agent[01] WEREWOLF
+2,talk,86,6,Over
+2,talk,87,10,Over
+2,talk,88,1,Over
+2,talk,89,8,VOTE Agent[02]
+2,talk,90,14,Over
+2,whisper,180,12,Over
+2,whisper,181,10,Skip
+2,whisper,182,13,Over
+2,whisper,183,12,Over
+2,whisper,184,10,Skip
+2,whisper,185,13,Over
+2,whisper,186,12,Over
+2,whisper,187,10,Skip
+2,whisper,188,13,Over
+2,whisper,189,10,Skip
+2,whisper,190,12,Over
+2,whisper,191,13,Over
+2,whisper,192,10,Skip
+2,whisper,193,12,Over
+2,whisper,194,13,Over
+2,whisper,195,10,Skip
+2,whisper,196,12,Over
+2,whisper,197,13,Over
+2,whisper,198,10,Skip
+2,whisper,199,12,Over
+2,whisper,200,13,Over
+2,whisper,201,10,Skip
+2,whisper,202,12,Over
+2,whisper,203,13,Over
+2,whisper,204,10,Skip
+2,whisper,205,12,Over
+2,whisper,206,13,Over
+2,whisper,207,10,Skip
+2,whisper,208,12,Over
+2,whisper,209,13,Over
+2,talk,91,13,Over
+2,talk,92,9,VOTE Agent[04]
+2,talk,93,5,ESTIMATE Agent[13] WEREWOLF
+2,talk,94,4,ESTIMATE Agent[10] VILLAGER
+2,talk,95,10,Over
+2,talk,96,6,Over
+2,talk,97,12,Over
+2,talk,98,1,Over
+2,talk,99,2,Skip
+2,talk,100,7,Over
+2,talk,101,8,VOTE Agent[07]
+2,talk,102,15,Over
+2,talk,103,14,Over
+2,whisper,210,13,Over
+2,whisper,211,10,Skip
+2,whisper,212,12,Over
+2,whisper,213,13,Over
+2,whisper,214,10,Skip
+2,whisper,215,12,Over
+2,whisper,216,10,Skip
+2,whisper,217,13,Over
+2,whisper,218,12,Over
+2,whisper,219,10,Skip
+2,whisper,220,12,Over
+2,whisper,221,13,Over
+2,whisper,222,10,Skip
+2,whisper,223,12,Over
+2,whisper,224,13,Over
+2,whisper,225,10,Skip
+2,whisper,226,12,Over
+2,whisper,227,13,Over
+2,whisper,228,10,Skip
+2,whisper,229,12,Over
+2,whisper,230,13,Over
+2,whisper,231,10,Skip
+2,whisper,232,12,Over
+2,whisper,233,13,Over
+2,whisper,234,10,Skip
+2,whisper,235,12,Over
+2,whisper,236,13,Over
+2,whisper,237,10,Skip
+2,whisper,238,12,Over
+2,whisper,239,13,Over
+2,talk,104,4,VOTE Agent[02]
+2,talk,105,2,Skip
+2,talk,106,6,Over
+2,talk,107,12,Over
+2,talk,108,5,ESTIMATE Agent[08] VILLAGER
+2,talk,109,7,Over
+2,talk,110,13,Over
+2,talk,111,9,VOTE Agent[04]
+2,talk,112,10,Over
+2,talk,113,1,Over
+2,talk,114,8,VOTE Agent[13]
+2,talk,115,14,Over
+2,talk,116,15,Over
+2,whisper,240,12,Over
+2,whisper,241,10,Skip
+2,whisper,242,13,Over
+2,whisper,243,12,Over
+2,whisper,244,10,Skip
+2,whisper,245,13,Over
+2,whisper,246,10,Skip
+2,whisper,247,12,Over
+2,whisper,248,13,Over
+2,whisper,249,10,Skip
+2,whisper,250,12,Over
+2,whisper,251,13,Over
+2,whisper,252,10,Skip
+2,whisper,253,12,Over
+2,whisper,254,13,Over
+2,whisper,255,10,Skip
+2,whisper,256,12,Over
+2,whisper,257,13,Over
+2,whisper,258,10,Skip
+2,whisper,259,12,Over
+2,whisper,260,13,Over
+2,whisper,261,10,Skip
+2,whisper,262,12,Over
+2,whisper,263,13,Over
+2,whisper,264,10,Skip
+2,whisper,265,12,Over
+2,whisper,266,13,Over
+2,whisper,267,10,Skip
+2,whisper,268,12,Over
+2,whisper,269,13,Over
+2,talk,117,6,Over
+2,talk,118,13,Over
+2,talk,119,7,Over
+2,talk,120,10,Over
+2,talk,121,2,Skip
+2,talk,122,8,Over
+2,talk,123,9,VOTE Agent[04]
+2,talk,124,5,Skip
+2,talk,125,1,Over
+2,talk,126,12,Over
+2,talk,127,4,Over
+2,talk,128,14,Over
+2,talk,129,15,Over
+2,whisper,270,12,Over
+2,whisper,271,10,Skip
+2,whisper,272,13,Over
+2,whisper,273,10,Skip
+2,whisper,274,12,Over
+2,whisper,275,13,Over
+2,whisper,276,10,Skip
+2,whisper,277,12,Over
+2,whisper,278,13,Over
+2,whisper,279,10,Skip
+2,whisper,280,12,Over
+2,whisper,281,13,Over
+2,whisper,282,10,Skip
+2,whisper,283,12,Over
+2,whisper,284,13,Over
+2,whisper,285,10,Skip
+2,whisper,286,12,Over
+2,whisper,287,13,Over
+2,whisper,288,10,Skip
+2,whisper,289,12,Over
+2,whisper,290,13,Over
+2,whisper,291,10,Skip
+2,whisper,292,12,Over
+2,whisper,293,13,Over
+2,whisper,294,10,Skip
+2,whisper,295,12,Over
+2,whisper,296,13,Over
+2,whisper,297,10,Skip
+2,whisper,298,12,Over
+2,whisper,299,13,Over
+2,vote,1,9
+2,vote,2,13
+2,vote,4,8
+2,vote,5,6
+2,vote,6,12
+2,vote,7,13
+2,vote,8,13
+2,vote,9,4
+2,vote,10,8
+2,vote,12,4
+2,vote,13,12
+2,vote,14,13
+2,vote,15,2
+2,divine,14,14,HUMAN
+2,guard,4,10,WEREWOLF
+2,attackVote,10,9
+2,attackVote,12,1
+2,attackVote,13,1
+2,execute,13,WEREWOLF
+2,attack,1,true
+3,status,1,VILLAGER,DEAD,cash
+3,status,2,VILLAGER,ALIVE,kSugar
+3,status,3,POSSESSED,DEAD,haretaro
+3,status,4,BODYGUARD,ALIVE,Kanolab
+3,status,5,VILLAGER,ALIVE,wasabi
+3,status,6,VILLAGER,ALIVE,TOT
+3,status,7,VILLAGER,ALIVE,nakamura
+3,status,8,VILLAGER,ALIVE,iace10442
+3,status,9,MEDIUM,ALIVE,tkAI
+3,status,10,WEREWOLF,ALIVE,NLwolf
+3,status,11,VILLAGER,DEAD,carlo
+3,status,12,WEREWOLF,ALIVE,twn480
+3,status,13,WEREWOLF,DEAD,KajiGod
+3,status,14,SEER,ALIVE,howls
+3,status,15,VILLAGER,ALIVE,Udon
+3,talk,0,2,VOTE Agent[12]
+3,talk,1,7,ESTIMATE Agent[08] WEREWOLF
+3,talk,2,9,VOTE Agent[04]
+3,talk,3,12,Over
+3,talk,4,15,VOTE Agent[02]
+3,talk,5,5,ESTIMATE Agent[02] WEREWOLF
+3,talk,6,8,Skip
+3,talk,7,4,VOTE Agent[14]
+3,talk,8,10,DIVINED Agent[02] HUMAN
+3,talk,9,6,VOTE Agent[12]
+3,talk,10,14,DIVINED Agent[14] HUMAN
+3,whisper,0,12,Over
+3,whisper,1,10,Skip
+3,whisper,2,10,Skip
+3,whisper,3,12,Over
+3,whisper,4,10,Skip
+3,whisper,5,12,Over
+3,whisper,6,10,Skip
+3,whisper,7,12,Over
+3,whisper,8,10,Skip
+3,whisper,9,12,Over
+3,whisper,10,10,Skip
+3,whisper,11,12,Over
+3,whisper,12,10,Skip
+3,whisper,13,12,Over
+3,whisper,14,10,Skip
+3,whisper,15,12,Over
+3,whisper,16,10,Skip
+3,whisper,17,12,Over
+3,whisper,18,10,Skip
+3,whisper,19,12,Over
+3,talk,11,15,ESTIMATE Agent[06] WEREWOLF
+3,talk,12,12,Over
+3,talk,13,10,Skip
+3,talk,14,7,VOTE Agent[08]
+3,talk,15,6,Over
+3,talk,16,8,Skip
+3,talk,17,2,VOTE Agent[12]
+3,talk,18,9,VOTE Agent[04]
+3,talk,19,5,ESTIMATE Agent[12] WEREWOLF
+3,talk,20,14,Over
+3,talk,21,4,VOTE Agent[07]
+3,whisper,20,12,Over
+3,whisper,21,10,Skip
+3,whisper,22,10,Skip
+3,whisper,23,12,Over
+3,whisper,24,10,Skip
+3,whisper,25,12,Over
+3,whisper,26,10,Skip
+3,whisper,27,12,Over
+3,whisper,28,10,Skip
+3,whisper,29,12,Over
+3,whisper,30,10,Skip
+3,whisper,31,12,Over
+3,whisper,32,10,Skip
+3,whisper,33,12,Over
+3,whisper,34,10,Skip
+3,whisper,35,12,Over
+3,whisper,36,10,Skip
+3,whisper,37,12,Over
+3,whisper,38,10,Skip
+3,whisper,39,12,Over
+3,talk,22,9,VOTE Agent[04]
+3,talk,23,7,Over
+3,talk,24,4,VOTE Agent[05]
+3,talk,25,2,ESTIMATE Agent[06] VILLAGER
+3,talk,26,6,Over
+3,talk,27,5,ESTIMATE Agent[04] WEREWOLF
+3,talk,28,8,Skip
+3,talk,29,10,Skip
+3,talk,30,15,ESTIMATE Agent[08] WEREWOLF
+3,talk,31,12,Over
+3,talk,32,14,Over
+3,whisper,40,10,Skip
+3,whisper,41,12,Over
+3,whisper,42,10,Skip
+3,whisper,43,12,Over
+3,whisper,44,10,Skip
+3,whisper,45,12,Over
+3,whisper,46,10,Skip
+3,whisper,47,12,Over
+3,whisper,48,10,Skip
+3,whisper,49,12,Over
+3,whisper,50,10,Skip
+3,whisper,51,12,Over
+3,whisper,52,10,Skip
+3,whisper,53,12,Over
+3,whisper,54,10,Skip
+3,whisper,55,12,Over
+3,whisper,56,10,Skip
+3,whisper,57,12,Over
+3,whisper,58,10,Skip
+3,whisper,59,12,Over
+3,talk,33,8,VOTE Agent[05]
+3,talk,34,2,ESTIMATE Agent[04] VILLAGER
+3,talk,35,15,ESTIMATE Agent[14] WEREWOLF
+3,talk,36,6,Over
+3,talk,37,4,ESTIMATE Agent[10] VILLAGER
+3,talk,38,5,ESTIMATE Agent[02] VILLAGER
+3,talk,39,7,Over
+3,talk,40,10,Skip
+3,talk,41,9,VOTE Agent[04]
+3,talk,42,12,Over
+3,talk,43,14,Over
+3,whisper,60,10,Skip
+3,whisper,61,12,Over
+3,whisper,62,10,Skip
+3,whisper,63,12,Over
+3,whisper,64,10,Skip
+3,whisper,65,12,Over
+3,whisper,66,10,Skip
+3,whisper,67,12,Over
+3,whisper,68,10,Skip
+3,whisper,69,12,Over
+3,whisper,70,10,Skip
+3,whisper,71,12,Over
+3,whisper,72,10,Skip
+3,whisper,73,12,Over
+3,whisper,74,10,Skip
+3,whisper,75,12,Over
+3,whisper,76,10,Skip
+3,whisper,77,12,Over
+3,whisper,78,10,Skip
+3,whisper,79,12,Over
+3,talk,44,10,VOTE Agent[15]
+3,talk,45,8,VOTE Agent[15]
+3,talk,46,6,Over
+3,talk,47,4,Over
+3,talk,48,9,VOTE Agent[04]
+3,talk,49,5,ESTIMATE Agent[12] WEREWOLF
+3,talk,50,2,ESTIMATE Agent[07] VILLAGER
+3,talk,51,7,Over
+3,talk,52,15,VOTE Agent[06]
+3,talk,53,12,Over
+3,talk,54,14,Over
+3,whisper,80,10,Skip
+3,whisper,81,12,Over
+3,whisper,82,10,Skip
+3,whisper,83,12,Over
+3,whisper,84,10,Skip
+3,whisper,85,12,Over
+3,whisper,86,10,Skip
+3,whisper,87,12,Over
+3,whisper,88,10,Skip
+3,whisper,89,12,Over
+3,whisper,90,10,Skip
+3,whisper,91,12,Over
+3,whisper,92,10,Skip
+3,whisper,93,12,Over
+3,whisper,94,10,Skip
+3,whisper,95,12,Over
+3,whisper,96,10,Skip
+3,whisper,97,12,Over
+3,whisper,98,10,Skip
+3,whisper,99,12,Over
+3,talk,55,5,ESTIMATE Agent[08] WEREWOLF
+3,talk,56,4,VOTE Agent[15]
+3,talk,57,7,Over
+3,talk,58,10,Over
+3,talk,59,15,Over
+3,talk,60,6,Over
+3,talk,61,2,ESTIMATE Agent[08] VILLAGER
+3,talk,62,9,VOTE Agent[04]
+3,talk,63,8,Over
+3,talk,64,12,Over
+3,talk,65,14,Over
+3,whisper,100,12,Over
+3,whisper,101,10,Skip
+3,whisper,102,10,Skip
+3,whisper,103,12,Over
+3,whisper,104,10,Skip
+3,whisper,105,12,Over
+3,whisper,106,10,Skip
+3,whisper,107,12,Over
+3,whisper,108,10,Skip
+3,whisper,109,12,Over
+3,whisper,110,10,Skip
+3,whisper,111,12,Over
+3,whisper,112,10,Skip
+3,whisper,113,12,Over
+3,whisper,114,10,Skip
+3,whisper,115,12,Over
+3,whisper,116,10,Skip
+3,whisper,117,12,Over
+3,whisper,118,10,Skip
+3,whisper,119,12,Over
+3,talk,66,9,VOTE Agent[04]
+3,talk,67,5,Skip
+3,talk,68,7,Over
+3,talk,69,4,VOTE Agent[04]
+3,talk,70,2,VOTE Agent[15]
+3,talk,71,6,Over
+3,talk,72,10,Over
+3,talk,73,15,Over
+3,talk,74,8,VOTE Agent[05]
+3,talk,75,12,Over
+3,talk,76,14,Over
+3,whisper,120,10,Skip
+3,whisper,121,12,Over
+3,whisper,122,10,Skip
+3,whisper,123,12,Over
+3,whisper,124,10,Skip
+3,whisper,125,12,Over
+3,whisper,126,10,Skip
+3,whisper,127,12,Over
+3,whisper,128,10,Skip
+3,whisper,129,12,Over
+3,whisper,130,10,Skip
+3,whisper,131,12,Over
+3,whisper,132,10,Skip
+3,whisper,133,12,Over
+3,whisper,134,10,Skip
+3,whisper,135,12,Over
+3,whisper,136,10,Skip
+3,whisper,137,12,Over
+3,whisper,138,10,Skip
+3,whisper,139,12,Over
+3,talk,77,8,Over
+3,talk,78,10,Over
+3,talk,79,9,VOTE Agent[04]
+3,talk,80,15,Over
+3,talk,81,2,Skip
+3,talk,82,7,Over
+3,talk,83,5,ESTIMATE Agent[12] WEREWOLF
+3,talk,84,6,Over
+3,talk,85,4,Over
+3,talk,86,12,Over
+3,talk,87,14,Over
+3,whisper,140,10,Skip
+3,whisper,141,12,Over
+3,whisper,142,10,Skip
+3,whisper,143,12,Over
+3,whisper,144,10,Skip
+3,whisper,145,12,Over
+3,whisper,146,10,Skip
+3,whisper,147,12,Over
+3,whisper,148,10,Skip
+3,whisper,149,12,Over
+3,whisper,150,10,Skip
+3,whisper,151,12,Over
+3,whisper,152,10,Skip
+3,whisper,153,12,Over
+3,whisper,154,10,Skip
+3,whisper,155,12,Over
+3,whisper,156,10,Skip
+3,whisper,157,12,Over
+3,whisper,158,10,Skip
+3,whisper,159,12,Over
+3,talk,88,2,Skip
+3,talk,89,10,Over
+3,talk,90,8,VOTE Agent[15]
+3,talk,91,9,VOTE Agent[04]
+3,talk,92,5,ESTIMATE Agent[07] WEREWOLF
+3,talk,93,15,Over
+3,talk,94,7,Over
+3,talk,95,4,VOTE Agent[02]
+3,talk,96,6,Over
+3,talk,97,12,Over
+3,talk,98,14,Over
+3,whisper,160,12,Over
+3,whisper,161,10,Skip
+3,whisper,162,12,Over
+3,whisper,163,10,Skip
+3,whisper,164,12,Over
+3,whisper,165,10,Skip
+3,whisper,166,10,Skip
+3,whisper,167,12,Over
+3,whisper,168,10,Skip
+3,whisper,169,12,Over
+3,whisper,170,10,Skip
+3,whisper,171,12,Over
+3,whisper,172,10,Skip
+3,whisper,173,12,Over
+3,whisper,174,10,Skip
+3,whisper,175,12,Over
+3,whisper,176,10,Skip
+3,whisper,177,12,Over
+3,whisper,178,10,Skip
+3,whisper,179,12,Over
+3,talk,99,8,VOTE Agent[05]
+3,talk,100,4,Over
+3,talk,101,9,VOTE Agent[04]
+3,talk,102,5,ESTIMATE Agent[02] VILLAGER
+3,talk,103,10,Over
+3,talk,104,7,Over
+3,talk,105,2,Skip
+3,talk,106,15,Over
+3,talk,107,6,Over
+3,talk,108,12,Over
+3,talk,109,14,Over
+3,whisper,180,12,Over
+3,whisper,181,10,Skip
+3,whisper,182,12,Over
+3,whisper,183,10,Skip
+3,whisper,184,10,Skip
+3,whisper,185,12,Over
+3,whisper,186,10,Skip
+3,whisper,187,12,Over
+3,whisper,188,10,Skip
+3,whisper,189,12,Over
+3,whisper,190,10,Skip
+3,whisper,191,12,Over
+3,whisper,192,10,Skip
+3,whisper,193,12,Over
+3,whisper,194,10,Skip
+3,whisper,195,12,Over
+3,whisper,196,10,Skip
+3,whisper,197,12,Over
+3,whisper,198,10,Skip
+3,whisper,199,12,Over
+3,vote,2,15
+3,vote,4,5
+3,vote,5,8
+3,vote,6,12
+3,vote,7,8
+3,vote,8,5
+3,vote,9,4
+3,vote,10,15
+3,vote,12,4
+3,vote,14,9
+3,vote,15,6
+3,divine,14,14,HUMAN
+3,guard,4,3,POSSESSED
+3,attackVote,10,9
+3,attackVote,12,2
+3,execute,5,VILLAGER
+3,attack,9,true
+4,status,1,VILLAGER,DEAD,cash
+4,status,2,VILLAGER,ALIVE,kSugar
+4,status,3,POSSESSED,DEAD,haretaro
+4,status,4,BODYGUARD,ALIVE,Kanolab
+4,status,5,VILLAGER,DEAD,wasabi
+4,status,6,VILLAGER,ALIVE,TOT
+4,status,7,VILLAGER,ALIVE,nakamura
+4,status,8,VILLAGER,ALIVE,iace10442
+4,status,9,MEDIUM,DEAD,tkAI
+4,status,10,WEREWOLF,ALIVE,NLwolf
+4,status,11,VILLAGER,DEAD,carlo
+4,status,12,WEREWOLF,ALIVE,twn480
+4,status,13,WEREWOLF,DEAD,KajiGod
+4,status,14,SEER,ALIVE,howls
+4,status,15,VILLAGER,ALIVE,Udon
+4,talk,0,14,DIVINED Agent[14] HUMAN
+4,talk,1,2,VOTE Agent[06]
+4,talk,2,10,DIVINED Agent[02] HUMAN
+4,talk,3,4,VOTE Agent[04]
+4,talk,4,6,VOTE Agent[12]
+4,talk,5,15,VOTE Agent[06]
+4,talk,6,8,Skip
+4,talk,7,7,ESTIMATE Agent[08] WEREWOLF
+4,talk,8,12,Over
+4,whisper,0,12,Over
+4,whisper,1,10,Skip
+4,whisper,2,10,Skip
+4,whisper,3,12,Over
+4,whisper,4,10,Skip
+4,whisper,5,12,Over
+4,whisper,6,10,Skip
+4,whisper,7,12,Over
+4,whisper,8,10,Skip
+4,whisper,9,12,Over
+4,whisper,10,10,Skip
+4,whisper,11,12,Over
+4,whisper,12,10,Skip
+4,whisper,13,12,Over
+4,whisper,14,10,Skip
+4,whisper,15,12,Over
+4,whisper,16,10,Skip
+4,whisper,17,12,Over
+4,whisper,18,10,Skip
+4,whisper,19,12,Over
+4,talk,9,7,VOTE Agent[08]
+4,talk,10,8,Skip
+4,talk,11,10,Skip
+4,talk,12,15,ESTIMATE Agent[06] WEREWOLF
+4,talk,13,14,Over
+4,talk,14,2,VOTE Agent[07]
+4,talk,15,6,Over
+4,talk,16,4,ESTIMATE Agent[10] VILLAGER
+4,talk,17,12,Over
+4,whisper,20,10,Skip
+4,whisper,21,12,Over
+4,whisper,22,10,Skip
+4,whisper,23,12,Over
+4,whisper,24,10,Skip
+4,whisper,25,12,Over
+4,whisper,26,10,Skip
+4,whisper,27,12,Over
+4,whisper,28,10,Skip
+4,whisper,29,12,Over
+4,whisper,30,10,Skip
+4,whisper,31,12,Over
+4,whisper,32,10,Skip
+4,whisper,33,12,Over
+4,whisper,34,10,Skip
+4,whisper,35,12,Over
+4,whisper,36,10,Skip
+4,whisper,37,12,Over
+4,whisper,38,10,Skip
+4,whisper,39,12,Over
+4,talk,18,7,Over
+4,talk,19,14,Over
+4,talk,20,10,Skip
+4,talk,21,2,ESTIMATE Agent[06] VILLAGER
+4,talk,22,6,Over
+4,talk,23,8,Skip
+4,talk,24,4,VOTE Agent[06]
+4,talk,25,15,ESTIMATE Agent[08] WEREWOLF
+4,talk,26,12,Over
+4,whisper,40,10,Skip
+4,whisper,41,12,Over
+4,whisper,42,10,Skip
+4,whisper,43,12,Over
+4,whisper,44,10,Skip
+4,whisper,45,12,Over
+4,whisper,46,10,Skip
+4,whisper,47,12,Over
+4,whisper,48,10,Skip
+4,whisper,49,12,Over
+4,whisper,50,10,Skip
+4,whisper,51,12,Over
+4,whisper,52,10,Skip
+4,whisper,53,12,Over
+4,whisper,54,10,Skip
+4,whisper,55,12,Over
+4,whisper,56,10,Skip
+4,whisper,57,12,Over
+4,whisper,58,10,Skip
+4,whisper,59,12,Over
+4,talk,27,2,ESTIMATE Agent[07] VILLAGER
+4,talk,28,10,Skip
+4,talk,29,6,Over
+4,talk,30,4,VOTE Agent[02]
+4,talk,31,15,ESTIMATE Agent[14] WEREWOLF
+4,talk,32,8,VOTE Agent[02]
+4,talk,33,14,Over
+4,talk,34,7,Over
+4,talk,35,12,Over
+4,whisper,60,12,Over
+4,whisper,61,10,Skip
+4,whisper,62,12,Over
+4,whisper,63,10,Skip
+4,whisper,64,10,Skip
+4,whisper,65,12,Over
+4,whisper,66,10,Skip
+4,whisper,67,12,Over
+4,whisper,68,10,Skip
+4,whisper,69,12,Over
+4,whisper,70,10,Skip
+4,whisper,71,12,Over
+4,whisper,72,10,Skip
+4,whisper,73,12,Over
+4,whisper,74,10,Skip
+4,whisper,75,12,Over
+4,whisper,76,10,Skip
+4,whisper,77,12,Over
+4,whisper,78,10,Skip
+4,whisper,79,12,Over
+4,talk,36,15,VOTE Agent[08]
+4,talk,37,6,Over
+4,talk,38,2,ESTIMATE Agent[08] VILLAGER
+4,talk,39,8,VOTE Agent[07]
+4,talk,40,4,VOTE Agent[14]
+4,talk,41,10,VOTE Agent[04]
+4,talk,42,7,Over
+4,talk,43,12,Over
+4,talk,44,14,Over
+4,whisper,80,10,Skip
+4,whisper,81,12,Over
+4,whisper,82,10,Skip
+4,whisper,83,12,Over
+4,whisper,84,10,Skip
+4,whisper,85,12,Over
+4,whisper,86,10,Skip
+4,whisper,87,12,Over
+4,whisper,88,10,Skip
+4,whisper,89,12,Over
+4,whisper,90,10,Skip
+4,whisper,91,12,Over
+4,whisper,92,10,Skip
+4,whisper,93,12,Over
+4,whisper,94,10,Skip
+4,whisper,95,12,Over
+4,whisper,96,10,Skip
+4,whisper,97,12,Over
+4,whisper,98,10,Skip
+4,whisper,99,12,Over
+4,talk,45,8,VOTE Agent[10]
+4,talk,46,2,ESTIMATE Agent[12] VILLAGER
+4,talk,47,15,Over
+4,talk,48,4,VOTE Agent[15]
+4,talk,49,10,Over
+4,talk,50,6,Over
+4,talk,51,7,Over
+4,talk,52,12,Over
+4,talk,53,14,Over
+4,whisper,100,10,Skip
+4,whisper,101,12,Over
+4,whisper,102,10,Skip
+4,whisper,103,12,Over
+4,whisper,104,10,Skip
+4,whisper,105,12,Over
+4,whisper,106,10,Skip
+4,whisper,107,12,Over
+4,whisper,108,10,Skip
+4,whisper,109,12,Over
+4,whisper,110,10,Skip
+4,whisper,111,12,Over
+4,whisper,112,10,Skip
+4,whisper,113,12,Over
+4,whisper,114,10,Skip
+4,whisper,115,12,Over
+4,whisper,116,10,Skip
+4,whisper,117,12,Over
+4,whisper,118,10,Skip
+4,whisper,119,12,Over
+4,talk,54,15,Over
+4,talk,55,8,Over
+4,talk,56,2,VOTE Agent[08]
+4,talk,57,4,Over
+4,talk,58,6,Over
+4,talk,59,7,Over
+4,talk,60,10,Over
+4,talk,61,12,Over
+4,talk,62,14,Over
+4,whisper,120,12,Over
+4,whisper,121,10,Skip
+4,whisper,122,12,Over
+4,whisper,123,10,Skip
+4,whisper,124,12,Over
+4,whisper,125,10,Skip
+4,whisper,126,12,Over
+4,whisper,127,10,Skip
+4,whisper,128,12,Over
+4,whisper,129,10,Skip
+4,whisper,130,10,Skip
+4,whisper,131,12,Over
+4,whisper,132,10,Skip
+4,whisper,133,12,Over
+4,whisper,134,10,Skip
+4,whisper,135,12,Over
+4,whisper,136,10,Skip
+4,whisper,137,12,Over
+4,whisper,138,10,Skip
+4,whisper,139,12,Over
+4,talk,63,8,VOTE Agent[06]
+4,talk,64,2,Skip
+4,talk,65,15,Over
+4,talk,66,4,Over
+4,talk,67,6,Over
+4,talk,68,7,Over
+4,talk,69,10,Over
+4,talk,70,12,Over
+4,talk,71,14,Over
+4,whisper,140,10,Skip
+4,whisper,141,12,Over
+4,whisper,142,10,Skip
+4,whisper,143,12,Over
+4,whisper,144,10,Skip
+4,whisper,145,12,Over
+4,whisper,146,10,Skip
+4,whisper,147,12,Over
+4,whisper,148,10,Skip
+4,whisper,149,12,Over
+4,whisper,150,10,Skip
+4,whisper,151,12,Over
+4,whisper,152,10,Skip
+4,whisper,153,12,Over
+4,whisper,154,10,Skip
+4,whisper,155,12,Over
+4,whisper,156,10,Skip
+4,whisper,157,12,Over
+4,whisper,158,10,Skip
+4,whisper,159,12,Over
+4,talk,72,8,Over
+4,talk,73,2,Skip
+4,talk,74,4,VOTE Agent[08]
+4,talk,75,6,Over
+4,talk,76,7,Over
+4,talk,77,10,Over
+4,talk,78,12,Over
+4,talk,79,14,Over
+4,talk,80,15,Over
+4,whisper,160,12,Over
+4,whisper,161,10,Skip
+4,whisper,162,12,Over
+4,whisper,163,10,Skip
+4,whisper,164,10,Skip
+4,whisper,165,12,Over
+4,whisper,166,10,Skip
+4,whisper,167,12,Over
+4,whisper,168,10,Skip
+4,whisper,169,12,Over
+4,whisper,170,10,Skip
+4,whisper,171,12,Over
+4,whisper,172,10,Skip
+4,whisper,173,12,Over
+4,whisper,174,10,Skip
+4,whisper,175,12,Over
+4,whisper,176,10,Skip
+4,whisper,177,12,Over
+4,whisper,178,10,Skip
+4,whisper,179,12,Over
+4,talk,81,2,Skip
+4,talk,82,4,Over
+4,talk,83,8,VOTE Agent[07]
+4,talk,84,6,Over
+4,talk,85,7,Over
+4,talk,86,10,Over
+4,talk,87,12,Over
+4,talk,88,14,Over
+4,talk,89,15,Over
+4,whisper,180,12,Over
+4,whisper,181,10,Skip
+4,whisper,182,12,Over
+4,whisper,183,10,Skip
+4,whisper,184,12,Over
+4,whisper,185,10,Skip
+4,whisper,186,10,Skip
+4,whisper,187,12,Over
+4,whisper,188,10,Skip
+4,whisper,189,12,Over
+4,whisper,190,10,Skip
+4,whisper,191,12,Over
+4,whisper,192,10,Skip
+4,whisper,193,12,Over
+4,whisper,194,10,Skip
+4,whisper,195,12,Over
+4,whisper,196,10,Skip
+4,whisper,197,12,Over
+4,whisper,198,10,Skip
+4,whisper,199,12,Over
+4,vote,2,8
+4,vote,4,6
+4,vote,6,12
+4,vote,7,8
+4,vote,8,7
+4,vote,10,4
+4,vote,12,6
+4,vote,14,12
+4,vote,15,8
+4,divine,14,14,HUMAN
+4,guard,4,3,POSSESSED
+4,attackVote,10,2
+4,attackVote,12,2
+4,execute,8,VILLAGER
+4,attack,2,true
+5,status,1,VILLAGER,DEAD,cash
+5,status,2,VILLAGER,DEAD,kSugar
+5,status,3,POSSESSED,DEAD,haretaro
+5,status,4,BODYGUARD,ALIVE,Kanolab
+5,status,5,VILLAGER,DEAD,wasabi
+5,status,6,VILLAGER,ALIVE,TOT
+5,status,7,VILLAGER,ALIVE,nakamura
+5,status,8,VILLAGER,DEAD,iace10442
+5,status,9,MEDIUM,DEAD,tkAI
+5,status,10,WEREWOLF,ALIVE,NLwolf
+5,status,11,VILLAGER,DEAD,carlo
+5,status,12,WEREWOLF,ALIVE,twn480
+5,status,13,WEREWOLF,DEAD,KajiGod
+5,status,14,SEER,ALIVE,howls
+5,status,15,VILLAGER,ALIVE,Udon
+5,talk,0,10,DIVINED Agent[12] HUMAN
+5,talk,1,4,VOTE Agent[06]
+5,talk,2,15,VOTE Agent[06]
+5,talk,3,7,Over
+5,talk,4,6,VOTE Agent[12]
+5,talk,5,14,DIVINED Agent[14] HUMAN
+5,talk,6,12,Over
+5,whisper,0,12,Over
+5,whisper,1,10,Skip
+5,whisper,2,10,Skip
+5,whisper,3,12,Over
+5,whisper,4,10,Skip
+5,whisper,5,12,Over
+5,whisper,6,10,Skip
+5,whisper,7,12,Over
+5,whisper,8,10,Skip
+5,whisper,9,12,Over
+5,whisper,10,10,Skip
+5,whisper,11,12,Over
+5,whisper,12,10,Skip
+5,whisper,13,12,Over
+5,whisper,14,10,Skip
+5,whisper,15,12,Over
+5,whisper,16,10,Skip
+5,whisper,17,12,Over
+5,whisper,18,10,Skip
+5,whisper,19,12,Over
+5,talk,7,14,Over
+5,talk,8,4,ESTIMATE Agent[10] VILLAGER
+5,talk,9,7,Over
+5,talk,10,6,Over
+5,talk,11,10,Skip
+5,talk,12,15,ESTIMATE Agent[06] WEREWOLF
+5,talk,13,12,Over
+5,whisper,20,10,Skip
+5,whisper,21,12,Over
+5,whisper,22,10,Skip
+5,whisper,23,12,Over
+5,whisper,24,10,Skip
+5,whisper,25,12,Over
+5,whisper,26,10,Skip
+5,whisper,27,12,Over
+5,whisper,28,10,Skip
+5,whisper,29,12,Over
+5,whisper,30,10,Skip
+5,whisper,31,12,Over
+5,whisper,32,10,Skip
+5,whisper,33,12,Over
+5,whisper,34,10,Skip
+5,whisper,35,12,Over
+5,whisper,36,10,Skip
+5,whisper,37,12,Over
+5,whisper,38,10,Skip
+5,whisper,39,12,Over
+5,talk,14,4,VOTE Agent[10]
+5,talk,15,14,Over
+5,talk,16,6,Over
+5,talk,17,15,ESTIMATE Agent[08] WEREWOLF
+5,talk,18,7,Over
+5,talk,19,10,Skip
+5,talk,20,12,Over
+5,whisper,40,12,Over
+5,whisper,41,10,Skip
+5,whisper,42,10,Skip
+5,whisper,43,12,Over
+5,whisper,44,10,Skip
+5,whisper,45,12,Over
+5,whisper,46,10,Skip
+5,whisper,47,12,Over
+5,whisper,48,10,Skip
+5,whisper,49,12,Over
+5,whisper,50,10,Skip
+5,whisper,51,12,Over
+5,whisper,52,10,Skip
+5,whisper,53,12,Over
+5,whisper,54,10,Skip
+5,whisper,55,12,Over
+5,whisper,56,10,Skip
+5,whisper,57,12,Over
+5,whisper,58,10,Skip
+5,whisper,59,12,Over
+5,talk,21,6,Over
+5,talk,22,7,Over
+5,talk,23,15,ESTIMATE Agent[14] WEREWOLF
+5,talk,24,4,VOTE Agent[15]
+5,talk,25,14,Over
+5,talk,26,10,Skip
+5,talk,27,12,Over
+5,whisper,60,12,Over
+5,whisper,61,10,Skip
+5,whisper,62,10,Skip
+5,whisper,63,12,Over
+5,whisper,64,10,Skip
+5,whisper,65,12,Over
+5,whisper,66,10,Skip
+5,whisper,67,12,Over
+5,whisper,68,10,Skip
+5,whisper,69,12,Over
+5,whisper,70,10,Skip
+5,whisper,71,12,Over
+5,whisper,72,10,Skip
+5,whisper,73,12,Over
+5,whisper,74,10,Skip
+5,whisper,75,12,Over
+5,whisper,76,10,Skip
+5,whisper,77,12,Over
+5,whisper,78,10,Skip
+5,whisper,79,12,Over
+5,talk,28,4,VOTE Agent[14]
+5,talk,29,10,VOTE Agent[04]
+5,talk,30,7,Over
+5,talk,31,14,Over
+5,talk,32,6,Over
+5,talk,33,15,ESTIMATE Agent[10] SEER
+5,talk,34,12,Over
+5,whisper,80,12,Over
+5,whisper,81,10,Skip
+5,whisper,82,10,Skip
+5,whisper,83,12,Over
+5,whisper,84,10,Skip
+5,whisper,85,12,Over
+5,whisper,86,10,Skip
+5,whisper,87,12,Over
+5,whisper,88,10,Skip
+5,whisper,89,12,Over
+5,whisper,90,10,Skip
+5,whisper,91,12,Over
+5,whisper,92,10,Skip
+5,whisper,93,12,Over
+5,whisper,94,10,Skip
+5,whisper,95,12,Over
+5,whisper,96,10,Skip
+5,whisper,97,12,Over
+5,whisper,98,10,Skip
+5,whisper,99,12,Over
+5,talk,35,7,Over
+5,talk,36,10,Over
+5,talk,37,14,Over
+5,talk,38,15,Over
+5,talk,39,6,Over
+5,talk,40,4,VOTE Agent[07]
+5,talk,41,12,Over
+5,whisper,100,10,Skip
+5,whisper,101,12,Over
+5,whisper,102,10,Skip
+5,whisper,103,12,Over
+5,whisper,104,10,Skip
+5,whisper,105,12,Over
+5,whisper,106,10,Skip
+5,whisper,107,12,Over
+5,whisper,108,10,Skip
+5,whisper,109,12,Over
+5,whisper,110,10,Skip
+5,whisper,111,12,Over
+5,whisper,112,10,Skip
+5,whisper,113,12,Over
+5,whisper,114,10,Skip
+5,whisper,115,12,Over
+5,whisper,116,10,Skip
+5,whisper,117,12,Over
+5,whisper,118,10,Skip
+5,whisper,119,12,Over
+5,talk,42,7,Over
+5,talk,43,6,Over
+5,talk,44,15,Over
+5,talk,45,14,Over
+5,talk,46,10,Over
+5,talk,47,4,Over
+5,whisper,120,10,Skip
+5,whisper,121,12,Over
+5,whisper,122,10,Skip
+5,whisper,123,12,Over
+5,whisper,124,10,Skip
+5,whisper,125,12,Over
+5,whisper,126,10,Skip
+5,whisper,127,12,Over
+5,whisper,128,10,Skip
+5,whisper,129,12,Over
+5,whisper,130,10,Skip
+5,whisper,131,12,Over
+5,whisper,132,10,Skip
+5,whisper,133,12,Over
+5,whisper,134,10,Skip
+5,whisper,135,12,Over
+5,whisper,136,10,Skip
+5,whisper,137,12,Over
+5,whisper,138,10,Skip
+5,whisper,139,12,Over
+5,vote,4,12
+5,vote,6,12
+5,vote,7,4
+5,vote,10,4
+5,vote,12,6
+5,vote,14,15
+5,vote,15,6
+5,divine,14,14,HUMAN
+5,guard,4,3,POSSESSED
+5,attackVote,10,4
+5,attackVote,12,4
+5,execute,12,WEREWOLF
+5,attack,4,true
+6,status,1,VILLAGER,DEAD,cash
+6,status,2,VILLAGER,DEAD,kSugar
+6,status,3,POSSESSED,DEAD,haretaro
+6,status,4,BODYGUARD,DEAD,Kanolab
+6,status,5,VILLAGER,DEAD,wasabi
+6,status,6,VILLAGER,ALIVE,TOT
+6,status,7,VILLAGER,ALIVE,nakamura
+6,status,8,VILLAGER,DEAD,iace10442
+6,status,9,MEDIUM,DEAD,tkAI
+6,status,10,WEREWOLF,ALIVE,NLwolf
+6,status,11,VILLAGER,DEAD,carlo
+6,status,12,WEREWOLF,DEAD,twn480
+6,status,13,WEREWOLF,DEAD,KajiGod
+6,status,14,SEER,ALIVE,howls
+6,status,15,VILLAGER,ALIVE,Udon
+6,talk,0,10,DIVINED Agent[06] HUMAN
+6,talk,1,14,DIVINED Agent[14] HUMAN
+6,talk,2,15,VOTE Agent[14]
+6,talk,3,7,Over
+6,talk,4,6,VOTE Agent[07]
+6,whisper,0,10,Skip
+6,whisper,1,10,Skip
+6,whisper,2,10,Skip
+6,whisper,3,10,Skip
+6,whisper,4,10,Skip
+6,whisper,5,10,Skip
+6,whisper,6,10,Skip
+6,whisper,7,10,Skip
+6,whisper,8,10,Skip
+6,whisper,9,10,Skip
+6,talk,5,6,Over
+6,talk,6,10,Skip
+6,talk,7,15,ESTIMATE Agent[08] WEREWOLF
+6,talk,8,14,Over
+6,talk,9,7,Over
+6,whisper,10,10,Skip
+6,whisper,11,10,Skip
+6,whisper,12,10,Skip
+6,whisper,13,10,Skip
+6,whisper,14,10,Skip
+6,whisper,15,10,Skip
+6,whisper,16,10,Skip
+6,whisper,17,10,Skip
+6,whisper,18,10,Skip
+6,whisper,19,10,Skip
+6,talk,10,10,Skip
+6,talk,11,15,ESTIMATE Agent[13] WEREWOLF
+6,talk,12,6,Over
+6,talk,13,7,Over
+6,talk,14,14,Over
+6,whisper,20,10,Skip
+6,whisper,21,10,Skip
+6,whisper,22,10,Skip
+6,whisper,23,10,Skip
+6,whisper,24,10,Skip
+6,whisper,25,10,Skip
+6,whisper,26,10,Skip
+6,whisper,27,10,Skip
+6,whisper,28,10,Skip
+6,whisper,29,10,Skip
+6,talk,15,10,Skip
+6,talk,16,15,ESTIMATE Agent[14] WEREWOLF
+6,talk,17,6,Over
+6,talk,18,7,Over
+6,talk,19,14,Over
+6,whisper,30,10,Skip
+6,whisper,31,10,Skip
+6,whisper,32,10,Skip
+6,whisper,33,10,Skip
+6,whisper,34,10,Skip
+6,whisper,35,10,Skip
+6,whisper,36,10,Skip
+6,whisper,37,10,Skip
+6,whisper,38,10,Skip
+6,whisper,39,10,Skip
+6,talk,20,15,Over
+6,talk,21,10,VOTE Agent[15]
+6,talk,22,6,Over
+6,talk,23,7,Over
+6,talk,24,14,Over
+6,whisper,40,10,Skip
+6,whisper,41,10,Skip
+6,whisper,42,10,Skip
+6,whisper,43,10,Skip
+6,whisper,44,10,Skip
+6,whisper,45,10,Skip
+6,whisper,46,10,Skip
+6,whisper,47,10,Skip
+6,whisper,48,10,Skip
+6,whisper,49,10,Skip
+6,talk,25,10,Over
+6,talk,26,15,Over
+6,whisper,50,10,Skip
+6,whisper,51,10,Skip
+6,whisper,52,10,Skip
+6,whisper,53,10,Skip
+6,whisper,54,10,Skip
+6,whisper,55,10,Skip
+6,whisper,56,10,Skip
+6,whisper,57,10,Skip
+6,whisper,58,10,Skip
+6,whisper,59,10,Skip
+6,vote,6,7
+6,vote,7,10
+6,vote,10,15
+6,vote,14,10
+6,vote,15,14
+6,divine,14,14,HUMAN
+6,attackVote,10,6
+6,execute,10,WEREWOLF
+7,status,1,VILLAGER,DEAD,cash
+7,status,2,VILLAGER,DEAD,kSugar
+7,status,3,POSSESSED,DEAD,haretaro
+7,status,4,BODYGUARD,DEAD,Kanolab
+7,status,5,VILLAGER,DEAD,wasabi
+7,status,6,VILLAGER,ALIVE,TOT
+7,status,7,VILLAGER,ALIVE,nakamura
+7,status,8,VILLAGER,DEAD,iace10442
+7,status,9,MEDIUM,DEAD,tkAI
+7,status,10,WEREWOLF,DEAD,NLwolf
+7,status,11,VILLAGER,DEAD,carlo
+7,status,12,WEREWOLF,DEAD,twn480
+7,status,13,WEREWOLF,DEAD,KajiGod
+7,status,14,SEER,ALIVE,howls
+7,status,15,VILLAGER,ALIVE,Udon
+7,result,4,0,VILLAGER
