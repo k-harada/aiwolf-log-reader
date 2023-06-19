@@ -6,7 +6,6 @@ def read_log(game_file_path):
     with open(game_file_path, newline='') as csvfile:
         log_reader = csv.reader(csvfile, delimiter=',')
         log = []
-        medium = 0
         for row in log_reader:
             if row[1] == "status":
                 log.append({

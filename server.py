@@ -3,7 +3,8 @@ import csv
 import pandas as pd
 
 
-from game_setting import game_setting_15, base_info_15
+from game_info import base_info_15
+from game_setting import game_setting_15
 
 
 sample_15_path = "./sample_data/local_test/AIWolf20230614182753.log"
@@ -40,6 +41,20 @@ class GameServer:
             if self.game_info["statusMap"][str(i)] == "ALIVE":
                 return i
         return -1
+
+    def push_contents(self, request, contents):
+        if request == "TALK":
+            self.talk_history.append(contents)
+        elif request == "WHISPER":
+            self.whisper_history.append(contents)
+        elif request == "VOTE":
+            self.game_info["latestVoteList"].append(contents)
+        elif request == "ATTACK":
+            self.game_info["latestAttackVoteList"].append(contents)
+        elif request == "RUN_ATTACK":
+            if contents["result"] == "true":
+                self.game_info["lastDeadAgentList"].append(contents["target"])
+        return None
 
     def create_packet(self):
         pass
