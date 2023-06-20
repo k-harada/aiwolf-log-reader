@@ -5,6 +5,7 @@ from server import GameServer
 
 
 sample_15_path = "./sample_data/local_test/AIWolf20230614182753.log"
+# sample_15_path = "./sample_data/game15/anac2019/000/000.log"
 
 
 class GameMaster:
@@ -89,7 +90,7 @@ class GameMaster:
                 self.queue.append((contents["agent"], "VOTE", contents))
                 self.phase = "VOTE"
                 self.position += 1
-        elif log_type == "attackVote":
+        elif log_type == "attack_vote":
             self.queue.append((contents["agent"], "ATTACK", contents))
             self.phase = "ATTACK_VOTE"
             self.position += 1
@@ -126,3 +127,4 @@ if __name__ == "__main__":
         if request_ == "DONE":
             break
         print(agent_, request_, contents_)
+        gm.push_contents(request_, contents_)

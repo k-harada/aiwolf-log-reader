@@ -7,9 +7,6 @@ from game_info import base_info_15
 from game_setting import game_setting_15
 
 
-sample_15_path = "./sample_data/local_test/AIWolf20230614182753.log"
-
-
 class GameServer:
 
     def __init__(self):
@@ -42,6 +39,9 @@ class GameServer:
                 return i
         return -1
 
+    def day_start(self):
+        pass
+
     def push_contents(self, request, contents):
         if request == "TALK":
             self.talk_history.append(contents)
@@ -51,9 +51,27 @@ class GameServer:
             self.game_info["latestVoteList"].append(contents)
         elif request == "ATTACK":
             self.game_info["latestAttackVoteList"].append(contents)
+        elif request == "INITIALIZE":
+            pass
+        elif request == "DAILY_INITIALIZE":
+            pass
+        elif request == "DAILY_FINISH":
+            pass
+        elif request == "DIVINE":
+            pass
+        elif request == "GUARD":
+            pass
         elif request == "RUN_ATTACK":
             if contents["result"] == "true":
                 self.game_info["lastDeadAgentList"].append(contents["target"])
+            self.game_info["attackedAgent"] = contents["target"]
+        elif request == "EXECUTE":
+            self.game_info["executedAgent"] = contents["target"]
+        elif request == "FINISH":
+            pass
+        else:
+            raise NotImplementedError(f"request: {request}, contents: {contents}")
+        print(self.game_info)
         return None
 
     def create_packet(self):
@@ -61,12 +79,3 @@ class GameServer:
 
     def _update(self):
         pass
-
-
-if __name__ == "__main__":
-    gs = GameServer(15)
-    gs.read_log(sample_15_path)
-    for _ in range(15):
-        print(gs.current_step())
-        gs.next_step()
-    print(gs.game_info)
