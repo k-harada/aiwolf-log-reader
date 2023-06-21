@@ -4,8 +4,8 @@ from read_log import read_log
 from server import GameServer
 
 
-sample_15_path = "./sample_data/local_test/AIWolf20230614182753.log"
-# sample_15_path = "./sample_data/game15/anac2019/000/000.log"
+# sample_15_path = "./sample_data/local_test/AIWolf20230614182753.log"
+sample_15_path = "./sample_data/game15/anac2019/000/000.log"
 
 
 class GameMaster:
@@ -58,8 +58,11 @@ class GameMaster:
         # read log
         log_type, contents = self.log[self.position]["type"], self.log[self.position]["contents"]
         if log_type == "status":
-            self.day = contents["day"]
+            if self.day < contents["day"]:
+                self.day = contents["day"]
             if self.day < self.day_finish:
+                if self.phase != "DAILY_INITIALIZE":
+                    self.server.day_start()
                 self.phase = "DAILY_INITIALIZE"
                 if contents["status"] == 'ALIVE':
                     self.queue.append((contents["agent"], "DAILY_INITIALIZE", None))
@@ -82,13 +85,13 @@ class GameMaster:
             self.position += 1
         elif log_type == "vote":
             if self.phase != "VOTE":
+                self.server.day_finish()
                 for i in range(self.n_players):
                     if self.server.game_info["statusMap"][str(i + 1)] == 'ALIVE':
                         self.queue.append((i + 1, "DAILY_FINISH", None))
                 self.phase = "VOTE"
             else:
                 self.queue.append((contents["agent"], "VOTE", contents))
-                self.phase = "VOTE"
                 self.position += 1
         elif log_type == "attack_vote":
             self.queue.append((contents["agent"], "ATTACK", contents))
@@ -126,5 +129,6 @@ if __name__ == "__main__":
         agent_, request_, contents_ = gm.next_step()
         if request_ == "DONE":
             break
-        print(agent_, request_, contents_)
+        if gm.day <= 1:
+            print(agent_, request_, contents_)
         gm.push_contents(request_, contents_)

@@ -14,16 +14,12 @@ class GameServer:
         self.game_setting = game_setting_15
         self.game_info = base_info_15
         self.request = "NAME"
-        self.talk_history = []
-        self.whisper_history = []
 
     def initialize(self, n_players, role_map):
         self.n_players = n_players
         # TODO: if n_players == 15:
         self.game_setting = game_setting_15
         self.game_info = base_info_15
-        self.talk_history = []
-        self.whisper_history = []
         for i in range(n_players):
             self.game_info["roleMap"][str(i + 1)] = role_map[str(i + 1)]
 
@@ -40,13 +36,26 @@ class GameServer:
         return -1
 
     def day_start(self):
-        pass
+        self.game_info["day"] += 1
+        self.game_info["talkList"] = []
+        self.game_info["whisperList"] = []
+        self.game_info["voteList"] = self.game_info["latestVoteList"]
+        self.game_info["latestVoteList"] = []
+        self.game_info["attackVoteList"] = self.game_info["latestAttackVoteList"]
+        self.game_info["latestAttackVoteList"] = []
+        self.game_info["executedAgent"] = self.game_info["latestExecutedAgent"]
+        self.game_info["latestExecutedAgent"] = -1
+
+    def day_finish(self):
+        self.game_info["divineResult"] = None
+        self.game_info["guardedAgent"] = -1
+        self.game_info["mediumResult"] = None
 
     def push_contents(self, request, contents):
         if request == "TALK":
-            self.talk_history.append(contents)
+            self.game_info["talkList"].append(contents)
         elif request == "WHISPER":
-            self.whisper_history.append(contents)
+            self.game_info["whisperList"].append(contents)
         elif request == "VOTE":
             self.game_info["latestVoteList"].append(contents)
         elif request == "ATTACK":
@@ -58,9 +67,9 @@ class GameServer:
         elif request == "DAILY_FINISH":
             pass
         elif request == "DIVINE":
-            pass
+            self.game_info["divineResult"] = contents
         elif request == "GUARD":
-            pass
+            self.game_info["guardedAgent"] = contents["target"]
         elif request == "RUN_ATTACK":
             if contents["result"] == "true":
                 self.game_info["lastDeadAgentList"].append(contents["target"])
@@ -71,7 +80,8 @@ class GameServer:
             pass
         else:
             raise NotImplementedError(f"request: {request}, contents: {contents}")
-        print(self.game_info)
+        if self.game_info["day"] <= 2:
+            print(self.game_info)
         return None
 
     def create_packet(self):
